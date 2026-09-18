@@ -4,10 +4,10 @@ I'm focused on things like compilers, virtual machines, and developer tooling (t
 
 # Projects
 ## [Rockscript](https://github.com/kirbytheburger/rockscript)
-Rockscript is an esoteric programming language with a stable interpreter and REPL, plus LSP and VSCode extension actively being worked on. It's built as a multi-crate Cargo workspace, splitting the language core from the LSP so tooling can reuse the same parser/AST without depending on the runtime.
+Rockscript is an esoteric programming language with a stable interpreter and REPL. An LSP and VSCode extension are actively being worked on. It's built as a multi-crate Cargo workspace, splitting the language core from the LSP so tooling can reuse the same parser/AST without depending on the runtime.
 
 ## [PIKU](https://github.com/kirbytheburger/PIKU)
-PIKU is a custom 16-bit CPU architecture with it's own instruction set, implemented as a stable Rust-based VM. It's complete enough to serve as a real compilation target: Negative C (-C), a C-like language, compiles down to PIKU assembly and runs on it.
+PIKU is a custom 16-bit CPU architecture with its own instruction set, implemented as a stable Rust-based VM. It's complete enough to serve as a real compilation target: Negative C (-C), a C-like language, compiles down to PIKU assembly and runs on it.
 
 ## [-C](https://github.com/kirbytheburger/-C)
 Negative C (-C) is a low-level, statically-typed language with manual memory management, based on C but intentionally simplified, compiling down to PIKU assembly for my custom 16-bit CPU. Actively in development, with core language features being built out incrementally.
