@@ -1,5 +1,5 @@
 # About
-Hey there, I'm James Verhoef, a low level systems programmer working primarily in Rust.
+Hey there, I'm James, a low level systems programmer working primarily in Rust.
 I'm focused on things like compilers, virtual machines, and developer tooling (think of parsers, LSPs, CLI tools).
 
 # Projects
